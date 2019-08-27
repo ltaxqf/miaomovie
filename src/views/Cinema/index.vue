@@ -1,7 +1,7 @@
 
 <template>
-<div id="main">
-    <Header />
+<div id="main" >
+    <Header title="猫眼影院" />
     <TabBar />
 </div>
 </template>
