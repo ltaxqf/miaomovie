@@ -1,7 +1,7 @@
 
 <template>
-<div id="main">
-    <Header />
+<div id="main" >
+    <Header title="我的"/>
     <TabBar />
 </div>
 </template>
