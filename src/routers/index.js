@@ -10,6 +10,11 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
+    {
+      path:'/',
+      name:'movie',
+     redirect:'/movie'
+    },
     movierouter,
     cinemaouter,
     minerouter
